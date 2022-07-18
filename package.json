@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A node server built from scratch with no external libraries",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesnnanna/node-server.git"
+  },
+  "keywords": [
+    "server",
+    "node-server",
+    "built-from-scratch"
+  ],
+  "author": "Charles Uthulor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesnnanna/node-server/issues"
+  },
+  "homepage": "https://github.com/charlesnnanna/node-server#readme",
+  "dependencies": {
+    "formidable": "^2.0.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.19"
+  }
+}
